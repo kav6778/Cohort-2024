@@ -11,6 +11,7 @@ function App() {
     return (
         <div>
             <BrowserRouter>
+                {/* Define your routes here */}
                 <Appbar/>
                 <Routes>
                     <Route path="/dashboard" element = {<Suspense fallback= {"loading..."}>
@@ -37,8 +38,7 @@ function Appbar(){
                 }}>Dashboard</button>
             </div>
         </div>
-        //all good dsd
+        //all good
     )
 }
 export default App;
-
