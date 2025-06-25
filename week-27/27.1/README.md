@@ -173,9 +173,10 @@ We can create a Kubernetes cluster in two ways:
    <br>
 
 8. To access the cluster, we need to install `kubectl`:
+   https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/#install-nonstandard-package-tools
 
    ```bash
-   brew install kubectl
+   winget install -e --id Kubernetes.kubectl
    ```
 
    - Check if the `kubectl` is installed:
@@ -186,7 +187,7 @@ We can create a Kubernetes cluster in two ways:
 
      <br>
 
-9. Now, we can access the cluster using `kubectl`:
+10. Now, we can access the cluster using `kubectl`:
 
    ```bash
    kubectl get nodes
